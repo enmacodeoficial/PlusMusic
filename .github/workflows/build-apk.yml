@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate App Icons
         run: |
-          npx cap-assets generate --android
+          npx @capacitor/assets generate --android
 
       - name: Sync web assets to Android
         run: |
